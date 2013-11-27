@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccf6813c-757e-4cef-878a-7872690d018e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="github-repo-code-search.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="ccf6813c-757e-4cef-878a-7872690d018e" time="1385581922376" ignored="false" />
-    <file path="/Gemfile" changelist="ccf6813c-757e-4cef-878a-7872690d018e" time="1385590064233" ignored="false" />
+    <file path="/Gemfile" changelist="ccf6813c-757e-4cef-878a-7872690d018e" time="1385590276740" ignored="false" />
     <file path="/application.html.slim" changelist="ccf6813c-757e-4cef-878a-7872690d018e" time="1385579925028" ignored="false" />
     <file path="/sessions_controller.rb" changelist="ccf6813c-757e-4cef-878a-7872690d018e" time="1385581518615" ignored="false" />
     <file path="/registrations_controller.rb" changelist="ccf6813c-757e-4cef-878a-7872690d018e" time="1385580365974" ignored="false" />
@@ -200,7 +202,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="19" selection-start="249" selection-end="249" vertical-scroll-proportion="0.40342298">
+            <state line="19" column="19" selection-start="398" selection-end="398" vertical-scroll-proportion="0.4767726">
               <folding />
             </state>
           </provider>
@@ -902,7 +904,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="19" selection-start="249" selection-end="249" vertical-scroll-proportion="0.40342298">
+        <state line="19" column="19" selection-start="398" selection-end="398" vertical-scroll-proportion="0.4767726">
           <folding />
         </state>
       </provider>

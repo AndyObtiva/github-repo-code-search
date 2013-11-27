@@ -16,8 +16,8 @@ end
 # Use Slim for HTML templates
 gem 'slim-rails', '2.0.3'
 
-# Use Stylus for stylesheets
-gem 'stylus', '1.0.0'
+#gem 'stylus', '1.0.0'
+gem 'sass-rails', '4.0.1'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
