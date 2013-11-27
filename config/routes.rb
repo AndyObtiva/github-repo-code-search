@@ -1,10 +1,13 @@
 GithubRepoCodeSearch::Application.routes.draw do
-  devise_for :users, :controllers => { :sessions => "users/sessions", :registrations => "users/registrations" }
+  devise_for :users, :omniauthable, :omniauth_providers => [:github], :controllers => { :sessions => "users/sessions" }
+  resources :users
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'users/registrations#show'
+  root 'welcome#index'
+
+  get '/auth/:provider/callback', to: 'users/sessions#create'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
