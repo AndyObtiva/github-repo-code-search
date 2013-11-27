@@ -1,6 +1,8 @@
 GithubRepoCodeSearch::Application.routes.draw do
   devise_for :users, :controllers => { :sessions => "users/sessions", :omniauth_callbacks => "users/omniauth_callbacks" }
 
+  get 'users/sign_out', method: 'get', to: 'users/sessions#destroy'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
