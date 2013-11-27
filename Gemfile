@@ -19,6 +19,8 @@ gem 'slim-rails', '2.0.3'
 #gem 'stylus', '1.0.0'
 gem 'sass-rails', '4.0.1'
 
+gem 'github_api', '0.10.2'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 

