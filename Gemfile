@@ -35,6 +35,8 @@ gem 'devise', '3.2.2'
 gem 'omniauth', '1.1.4'
 gem 'omniauth-github', '1.1.1'
 
+gem 'protected_attributes', '1.0.5'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false

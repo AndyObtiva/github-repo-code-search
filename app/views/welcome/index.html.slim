@@ -1,0 +1,5 @@
+h1 Welcome to GitHub Repo Code Search
+- if user_signed_in?
+  h2 Hi #{current_user.email.to_s.split(/\.|\@/)[0].to_s.humanize}
+- else
+  = link_to "Sign in with GitHub", user_omniauth_authorize_path(:github)
