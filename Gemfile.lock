@@ -85,6 +85,7 @@ GEM
       oauth2 (~> 0.8.0)
       omniauth (~> 1.0)
     orm_adapter (0.5.0)
+    pg (0.17.0)
     polyglot (0.3.3)
     pr_geohash (1.0.0)
     protected_attributes (1.0.5)
@@ -169,6 +170,7 @@ DEPENDENCIES
   jquery-rails
   omniauth (= 1.1.4)
   omniauth-github (= 1.1.1)
+  pg
   protected_attributes (= 1.0.5)
   rails (= 4.0.1)
   sdoc
