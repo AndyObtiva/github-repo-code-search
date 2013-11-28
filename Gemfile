@@ -40,7 +40,7 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
-gem 'sunspot_rails', '2.1.0'
+gem 'sunspot_rails', '2.0.0'
 gem 'devise', '3.2.2'
 gem 'omniauth', '1.1.4'
 gem 'omniauth-github', '1.1.1'
