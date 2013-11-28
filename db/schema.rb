@@ -11,7 +11,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131127195127) do
+ActiveRecord::Schema.define(version: 20131128023552) do
+
+  create_table "gists", force: true do |t|
+    t.string   "filename"
+    t.string   "language"
+    t.string   "content_type"
+    t.string   "raw_url"
+    t.integer  "size"
+    t.text     "content"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "users", force: true do |t|
     t.string   "email",                  default: "", null: false

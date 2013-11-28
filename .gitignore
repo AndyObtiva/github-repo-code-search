@@ -17,3 +17,5 @@
 
 a_local_initializer.rb
 .idea
+solr
+log/sunspot-solr-development.log.lck

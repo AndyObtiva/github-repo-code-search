@@ -4,3 +4,13 @@ h1 Welcome to GitHub Repo Code Search
   = link_to "Sign out", users_sign_out_path
 - else
   = link_to "Sign in with GitHub", user_omniauth_authorize_path(:github)
+= form_tag '/search', method: 'post'
+  = label_tag :q, 'Search Gists'
+  br
+  = text_field_tag :q
+  = submit_tag :search
+ul
+  - @gists.each do |gist|
+    li
+      = link_to gist.filename, gist.actual_url, target: '_blank'
+      script src=gist.embed_url
