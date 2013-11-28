@@ -5,11 +5,11 @@ Just a breakable toy Rails 4 app to search my personal Gists on GitHub using Sol
 This is a playground that may include more experiements.
 
 References: 
-http://chimera.labs.oreilly.com/books/1234000001813/ch05.html#breakable_toys
-http://sunspot.github.io
-https://github.com/peter-murach/github
-http://developer.github.com/v3/
-https://github.com/intridea/omniauth-github
-http://developer.github.com/v3/oauth/
-https://github.com/intridea/omniauth
-https://github.com/plataformatec/devise/wiki/OmniAuth:-Overview
+- http://chimera.labs.oreilly.com/books/1234000001813/ch05.html#breakable_toys
+- http://sunspot.github.io
+- https://github.com/peter-murach/github
+- http://developer.github.com/v3/
+- https://github.com/intridea/omniauth-github
+- http://developer.github.com/v3/oauth/
+- https://github.com/intridea/omniauth
+- https://github.com/plataformatec/devise/wiki/OmniAuth:-Overview
